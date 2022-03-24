@@ -50,8 +50,9 @@ The application is responsive, also working on mobile devices.
 
 # 🔖 Layout
 
-You can view the project layout through [desse link](https://exodogurgel.github.io/BalanceSheet/).
+You can view the project layout through [this link](https://exodogurgel.github.io/BalanceSheet/).
 
+Layout mobile [click here](https://github.com/exodogurgel/BalanceSheet/blob/main/assets/image-responsive.png)
 
 
 # :memo: License
