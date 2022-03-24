@@ -21,8 +21,8 @@
 <br>
 
 <div style="display: inline_block" align="center">
-  <img alt="Balance Sheet" src="./assets/gifBalanceSheet.gif" width="80%"> 
-  <img alt="Balance Sheet" src="./assets/image-responsive.png" width="173px">
+  <img alt="Balance Sheet" src="./assets/gifBalanceSheet.gif" width="70%"> 
+  <img alt="Balance Sheet" src="./assets/image-responsive.png" width="151px">
 </div>
 
 <br>
