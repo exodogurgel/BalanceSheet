@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="shortcut icon"
+            href="assets/favicon.png"
+            type="image/x-icon"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <title>Balance Sheet</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img
+                    src="./assets/BALANCE (1).png"
+                    alt="logo da empresa financeira"
+                />
+            </div>
+        </header>
+        <main class="container">
+            <section id="balance">
+                <h1 class="sr-only">Balanço</h1>
+
+                <div class="cards-1">
+                    <div class="card">
+                        <h2>
+                            <span>Entradas</span>
+                            <img
+                                src="./assets/income.svg"
+                                alt="simbolo de entrada"
+                            />
+                        </h2>
+                        <p id="incomeDisplay">R$ 0,00</p>
+                    </div>
+
+                    <div class="card">
+                        <h2>
+                            <span>Saídas</span>
+                            <img
+                                src="./assets/expense.svg"
+                                alt="simbolo de saida"
+                            />
+                        </h2>
+                        <p id="expenseDisplay">R$ 0,00</p>
+                    </div>
+                </div>
+
+                <div class="total-bg">
+                    <div id="card-total">
+                        <h2>
+                            <span>Total</span>
+                            <img
+                                src="./assets/total.svg"
+                                alt="simbolo de total"
+                            />
+                        </h2>
+                        <p id="totalDisplay">R$ 0,00</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="new-transaction">
+                <a href="#" onclick="Modal.modal()">+ Nova Transação</a>
+            </section>
+
+            <section id="transaction">
+                <h1 class="sr-only">Transações</h1>
+
+                <table id="table-date">
+                    <thead>
+                        <tr>
+                            <th>Descrição</th>
+                            <th>Valor</th>
+                            <th>Data</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+        </main>
+
+        <div class="modal-overlay">
+            <div class="modal">
+                <div id="form">
+                    <h2>Nova Transação</h2>
+
+                    <form action="" onsubmit="Form.submit(event)">
+                        <div class="input-group">
+                            <label class="sr-only" for="description"
+                                >Description</label
+                            >
+                            <input
+                                class="input"
+                                type="text"
+                                id="description"
+                                name="description"
+                                placeholder="Descrição"
+                            />
+                        </div>
+
+                        <div class="input-group">
+                            <label class="sr-only" for="amount">Value</label>
+                            <input
+                                class="input"
+                                type="number"
+                                id="amount"
+                                name="amount"
+                                step="0.01"
+                                placeholder="0,00"
+                            />
+                            <small class="help"
+                                >Use o sinal - (negativo) para despesas e ,
+                                (vírgula) para casas decimais</small
+                            >
+                        </div>
+
+                        <div class="input-group">
+                            <label class="sr-only" for="Date">Date</label>
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                                class="input"
+                            />
+                        </div>
+
+                        <div class="input-group actions">
+                            <a
+                                href="#"
+                                onclick="Modal.modal()"
+                                class="button cancel"
+                                >Cancelar</a
+                            >
+                            <button>Salvar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="theme-switcher">
+                <input type="checkbox" name="box" id="box" />
+                <label id="label" for="box">
+                    <div id="moon">
+                        <img
+                            src="./assets/moon.svg"
+                            alt="imagem de uma miniatura de sol"
+                        />
+                    </div>
+                    <div id="sun">
+                        <img
+                            src="./assets/sun.svg"
+                            alt="imagem de uma miniatura de lua"
+                        />
+                    </div>
+                    <div id="ball"></div>
+                </label>
+            </div>
+            <p>balance.sheet$</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
