@@ -3,17 +3,18 @@
 </h1>
 
 <p align="center">
-  <a href="#-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-Layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-License">License</a>
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
 </p>
 
 <p align="center">
  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="welcome!" />
+ <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
- <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+
 
 
 
@@ -21,7 +22,7 @@
 
 <div style="display: inline_block" align="center">
   <img alt="Balance Sheet" src="./assets/gifBalanceSheet.gif" width="80%"> 
-  <img alt="Balance Sheet" src="./assets/image-responsive.png" width="235px">
+  <img alt="Balance Sheet" src="./assets/image-responsive.png" width="173px">
 </div>
 
 <br>
@@ -34,7 +35,6 @@ This project was developed with the following technologies:
 - CSS
 - JavaScript
 
-<br>
 
 # 💻 Project
 
@@ -46,13 +46,13 @@ The application contains dark mode to suit your taste.
 
 The application is responsive, also working on mobile devices.
 
-<br>
+
 
 # 🔖 Layout
 
 You can view the project layout through [desse link](https://exodogurgel.github.io/BalanceSheet/).
 
-<br>
+
 
 # :memo: License
 
